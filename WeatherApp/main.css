@@ -1,0 +1,117 @@
+﻿
+.background-image {
+   background: url(http://investorplace.com/wp-content/uploads/2012/08/pretty-clouds-630.jpg)no-repeat center center;
+   background-size: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    filter: blur(4px);
+}
+
+#weather_page {
+    background-color: cadetblue;
+    min-height: 40vh;
+    height: auto;
+    width: 40%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 150px auto 0;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+}
+#weather_page a:hover {
+    text-decoration: none;
+}
+.temp {
+    font-size: 8em;
+}
+
+.tempSymb {
+    cursor: pointer;
+    color: greenyellow;
+}
+@media (max-width: 960px) {
+    #weather_page {
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+    #weather_page {
+        width: 90%;
+    }
+}
+
+
+/*
+
+#test_page {
+    min-height: 100vh;
+    height: auto;
+    margin-top: 80px;
+}
+
+@media(max-width: 468px) {
+    #weather_page {
+        margin: 0 auto;
+        width: 98%;
+    }
+    .temp  {
+        font-size: 5em;
+        text-align: center;
+    }
+}
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
