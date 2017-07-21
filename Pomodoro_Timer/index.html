@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Promodoro Timer</title>
+	<!-- CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Scripts -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+<div class="container-fluid" id="timer-page">
+
+  <header class="text-center">
+  	<div class="row">
+		<div class="col-md-12">
+			<h1>Promodoro Timer</h1>
+		</div>
+	</div>
+	<div class="row" id="break">
+		<div class="col-md-6">
+			<h3>Break Time</h3>
+			<span class="fa fa-minus" id="decreaseBreak">&nbsp;</span>
+			<span id="breakTime">5&nbsp;</span>
+			<span class="fa fa-plus" id="increaseBreak"></span>
+		</div>
+		<div class="col-md-6" id="session">
+			<h3>Session Length</h3>
+			<span class="fa fa-minus" id="decreaseSession">&nbsp;</span>
+			<span id="sessionLength">25&nbsp;</span>
+			<!-- <h2 id="length"></h2> -->
+			<span class="fa fa-plus" id="increaseSession"></span>
+		</div>
+	</div>
+  </header>	
+
+
+  <div class="text-center" id="session-time">
+  	<h1 id="sessionTitle">Session Time</h1>
+  	<h2 id="sessionTime">25</h2>
+  	<h2 id="message"></h2>
+  </div>
+  <div class="text-center" id="controls">
+  	<button class="fa fa-play" id="play">&nbsp;Start</button>
+  	<button class="fa fa-play" id="resume">&nbsp;Resume</button>
+  	<button class="fa fa-pause" id="pause">&nbsp;Pause</button>
+  	<button class="fa fa-refresh" id="reset">&nbsp;Reset</button>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

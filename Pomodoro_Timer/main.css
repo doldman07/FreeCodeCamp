@@ -1,0 +1,56 @@
+* {
+
+}
+body {
+
+}
+header {
+	margin: 50px auto;
+}
+#session-time {
+	
+}
+#session-time h1 {
+	margin: 70px auto 0;
+}
+#controls {
+	margin: 30px auto;
+}
+#break .fa-minus,
+#break .fa-plus,
+#session .fa-minus,
+#session .fa-plus  {
+	font-size:1.5em;
+	cursor: pointer;
+}
+#breakTime,
+#sessionLength {
+	font-size: 1.7em;
+}
+
+#controls {
+	font-size: 2em;
+	/*cursor: pointer;*/
+}
+
+#controls button {
+	border: none;
+	/*border: outset;*/
+	background: transparent;
+}
+#controls button:hover {
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
