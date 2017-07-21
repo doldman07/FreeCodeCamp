@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+	 <script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+<div class="container-fluid text-center" id="game-page">
+	<div class="container">
+		<h1>Tic Tac Toe</h1>
+		<div id="gameBoard">
+			<div class="row">
+			<div class="square 0" onclick="gameStatus(0)"></div>
+			<div class="square 1" onclick="gameStatus(1)"></div>
+			<div class="square 2" onclick="gameStatus(2)"></div>
+		</div>
+		<div class="row">
+			<div class="square 3" onclick="gameStatus(3)"></div>
+			<div class="square 4" onclick="gameStatus(4)"></div>
+			<div class="square 5" onclick="gameStatus(5)"></div>
+		</div>
+		<div class="row">
+			<div class="square 6" onclick="gameStatus(6)"></div>
+			<div class="square 7" onclick="gameStatus(7)"></div>
+			<div class="square 8" onclick="gameStatus(8)"></div>
+		</div>
+		<div class="options">
+			<div id="message"></div>
+			<button class="restart" onclick="init()">Play Again</button>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+</body>
+</html>
