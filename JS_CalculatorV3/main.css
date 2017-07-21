@@ -1,0 +1,89 @@
+﻿body
+{
+}
+
+#calcUnit {
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 450px;
+    margin: 100px auto;
+}
+
+
+
+.result {
+    height: 50px;
+    margin: 30px auto;
+    border: inset;
+    text-align: right;
+    font-size: 30px;
+    background-color: #888;
+}
+
+.keypad {
+    text-align: center;
+    /*margin: 20px auto;*/
+}
+
+
+
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+}
+
+.button {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#equal {
+    width: 115px;
+    border-radius: 0;
+    padding: 0;
+}
+
+.powerOn {
+    background-color: rgba(90, 190, 30, 0.6);
+}
+
+.green {
+    background-color: rgba(0, 80, 0, 0.3)
+}
+
+.powerButton {
+    background-color: rgba(100, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
