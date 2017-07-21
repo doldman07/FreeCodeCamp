@@ -1,0 +1,141 @@
+#game-page {
+	height: 100vh;
+	background-color: beige;
+}
+
+#green:active {
+	background-color: lightgreen;
+}
+
+#red:active {
+	background-color: pink;
+}
+
+#yellow:active {
+	background-color: lightyellow;
+}
+
+#blue:active {
+	background-color: lightblue;
+}
+
+div button {
+	/*margin: 10px auto 2px 0;*/
+}
+
+
+.container-fluid {
+	background-color: beige;
+	height: 100vh;
+}
+
+.wrapper {
+	position: relative;
+	width: 640px;
+	margin: 0 auto;
+}
+
+.inner-circle {
+	position: absolute;
+	top: 190px;
+	left: 185px;
+	width: 270px;
+	height: 270px;
+	background-color: #ddd;
+	border-radius: 100%;
+	z-index: 10;
+}
+.inner-circle h1 {
+	margin: 30px 0 0 0;
+	font-weight: 700;
+	font-family: monospace;
+	font-size: 4em;
+}
+
+
+
+.pad {
+	width: 300px;
+	height: 300px;
+	float: left;
+	z-index: 1;
+	margin: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+ 	filter: alpha(opacity=60);
+ 	opacity: 0.6;
+}
+
+.green {
+	border-top-left-radius: 300px;
+	background-color: green;
+}
+
+.red {
+	float: left;
+	border-top-right-radius: 300px;
+	background-color: red;
+	clear: right;
+}
+
+.yellow {
+	border-bottom-left-radius: 300px;
+	float: left;
+	background-color: yellow;
+	clear: left;
+}
+
+.blue {
+	border-bottom-right-radius: 300px;
+	float: left;
+	background-color: blue;
+}
+
+.back {
+	position: absolute;
+	top: 80px;
+	width: 640px;
+	height: 640px;
+	z-index: 0;
+	background-color: #000;
+	border-radius: 310px;
+}
+
+.start-btn,
+.strict-btn {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	background-color: red;
+	border: 2px solid #222;
+	box-shadow: 1px 1px 3px 1px #111;
+	display: inline-block;
+	margin: 12px 0 0 0;
+}
+
+.score-screen {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	border: 2px solid #333;
+	background-color: #341414;
+	margin: 12px auto 0;
+	line-height: 1.1em;
+	text-align: center;
+	font-size: 2em;
+}
+#score {
+	color: red;
+}
+.g {
+	background-color: green;
+}
+.r {
+	background-color: red;
+}
+
+#goodMessage {
+	text-align: center;
+	font-size: 1.3em;
+	color: green;
+}
