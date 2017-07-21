@@ -1,8 +1,6 @@
 // JavaScript source code
 var app = angular.module('WeatherApp', []);
 
-
-
 app.controller('WeatherCtrl', function ($scope, $http) {
 
     $http.get("http://ip-api.com/json")
@@ -95,11 +93,7 @@ app.controller('WeatherCtrl', function ($scope, $http) {
                            "background-size": "cover"
                        };
                      break;
-
              }
-
-
-
 
          });
      });
