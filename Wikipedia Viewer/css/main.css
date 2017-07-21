@@ -1,0 +1,131 @@
+﻿* {
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+body
+{
+    overflow-x: hidden;
+}
+
+#wiki_page {
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(lightblue, rgb(0,0,0));
+}
+#wiki_page h1 {
+    margin-top: 100px;
+    font-size: 4em;
+    font-family: 'Sitka Subheading';
+    text-align: center;
+}
+#search_container {
+    min-height: 150px;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgba(241, 218, 218, 0.2);
+}
+
+
+#txtSearch {
+   width: 70%;
+   height: 50px;
+   font-size: 18px;
+   border: none;
+   border-radius: 10px;  
+   -webkit-box-shadow: 4px 3px 8px 1px rgb(0,0,0);
+   box-shadow: 4px 3px 8px 1px rgb(0,0,0);
+   padding-left: 20px;
+   margin: 20px 15px 20px 0;
+  
+}
+#btnSearch,
+#btnRandom {
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  color: #fff;
+  box-shadow: 2px 3px 8px 1px rgb(0,0,0);
+  background-color: cadetblue;
+}
+#btnRandom {
+    font-size: 18px;
+}
+
+ #btnSearch:hover,
+ #btnRandom:hover {
+    background: rgba(14, 143, 40, 0.68);
+}
+
+ /************************
+     Search Result Styles
+ *************************/
+ #search_results {
+    
+ }
+ #search_results p {    
+     background-color: antiquewhite; 
+     font-size: 18px;
+     color: #333;
+     padding: 5px;
+     padding-bottom: 20px;
+     border-radius: 10px;
+     line-height: 1.4em;
+     /*border-left: 20px solid green;*/    
+ }
+ #search_results a {    
+     text-decoration: none;
+ }
+ #search_results p:hover {
+     text-decoration: none;
+     background-color: #ccc;
+ }
+ /*****************
+     Footer Styles
+ ******************/
+footer {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .fa-twitter {
+    font-size: 1.4em;
+}
+footer a  span {
+    color: lightblue;
+    background-color: #333;
+    padding: 8px;
+    border-radius: 50%;
+}
+footer a span:hover {
+    color: #fff;
+    background-color: cadetblue;
+}
+@media (max-width: 767px) {
+    #wiki_page {
+        margin: 0;
+        padding: 5px;
+    }
+    #search_container {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        height: auto;
+    }
+    #txtSearch,
+    #btnRandom {
+        width: 100%;
+    }
+    #btnSearch, #btnRandom {
+        margin-bottom: 20px;
+    }
+    footer {
+        margin: 20px;
+    }
+
+}
+

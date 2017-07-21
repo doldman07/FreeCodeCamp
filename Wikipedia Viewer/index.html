@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Wikipedia Viewer</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid" id="wiki_page">
+        <h1>Wikipedia Search</h1>
+        <div id="search_container">
+            <input type="search" id="txtSearch" autofocus placeholder="Search Wikipedia..." />
+            <i id="btnSearch" class="fa fa-search fa-2x" title="Search"></i>
+            <p>
+                <i id="btnRandom" onclick="RandomSearch()" title="Random Search">Search for random articles</i>
+            </p>           
+        </div>
+        <div class="container" id="search_results">
+            <div id="results"></div>
+        </div>
+        <footer>
+            <ul class="list-inline">
+                <li>Free Code Camp Challange&nbsp;&bull;&nbsp;Wikipedia Viewer</li>
+            </ul>
+            <h6>&copy; 2017 Created by Doug Oldfather <a href="http://twitter.com/dougweb7" target="_blank"><span class="fa fa-twitter"></span></a></h6>
+        </footer>
+    </div>
+
+
+</body>
+</html>
